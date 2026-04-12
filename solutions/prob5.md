@@ -3,12 +3,14 @@
 ## Question
 $2520$ is the smallest number that can be divided by each of the numbers from $1$ to $10$ without any remainder.</p>
 <p>What is the smallest positive number that is <strong class="tooltip">evenly divisible<span class="tooltiptext">divisible with no remainder</span></strong> by all of the numbers from $1$ to $N$?
+
 ## Solution
+They are essentially asking for lcm
 
 ```python3
 n=20
 lcm = 1
-def gcd(a,b):
+def gcd(a,b):     # GCD is greatest common divisior
     i = 2 
     temp = 1
     while(i<=a and i<=b):
