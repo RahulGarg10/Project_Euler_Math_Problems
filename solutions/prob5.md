@@ -2,7 +2,11 @@
 
 ## Question
 $2520$ is the smallest number that can be divided by each of the numbers from $1$ to $10$ without any remainder.</p>
-<p>What is the smallest positive number that is <strong class="tooltip">evenly divisible<span class="tooltiptext">divisible with no remainder</span></strong> by all of the numbers from $1$ to $N$?
+<p>What is the smallest positive number that is <strong class="tooltip">evenly divisible<span class="tooltiptext">divisible with no remainder</span></strong> by all of the numbers from $1$ to $N$? Problem Links:
+
+**Project Euler:** https://projecteuler.net/problem=5
+
+**Hackerrank:** https://www.hackerrank.com/contests/projecteuler/challenges/euler005/problem
 
 ## Solution
 They are essentially asking for lcm
