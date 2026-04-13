@@ -5,4 +5,9 @@ These problems are generalised in Hackerrank's [ProjectEuler+ challenge](https:/
 
 | # | Title | Python |
 |---| ----- | ------ |
+| 1 | Smallest Multiple | [Python](./solutions/prob1.md) |
+| 2 | Smallest Multiple | [Python](./solutions/prob2.md) |
+| 3 | Smallest Multiple | [Python](./solutions/prob3.md) |
+| 4 | Smallest Multiple | [Python](./solutions/prob4.md) |
 | 5 | Smallest Multiple | [Python](./solutions/prob5.md) |
+| 6 | Smallest Multiple | [Python](./solutions/prob6.md) |
