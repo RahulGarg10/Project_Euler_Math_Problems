@@ -11,7 +11,7 @@ $2520$ is the smallest number that can be divided by each of the numbers from $1
 ## Solution
 They are essentially asking for lcm
 
-**Time Complexity:** $O(n)$
+**Time Complexity:** $O(n.log \ n)$
 
 **Space Complexity:** $O(1)$
 
