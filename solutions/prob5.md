@@ -11,6 +11,10 @@ $2520$ is the smallest number that can be divided by each of the numbers from $1
 ## Solution
 They are essentially asking for lcm
 
+**Time Complexity:** $O(n)$
+
+**Space Complexity:** $O(1)$
+
 ```python3
 n=20
 lcm = 1
