@@ -13,7 +13,7 @@ Problem Links:
 
 ## Solution
 
-**Time Complexity:** $O(\sqrt{\mathstrut n})$
+**Time Complexity:** $O()$
 
 **Space Complexity:** $O(1)$
 
