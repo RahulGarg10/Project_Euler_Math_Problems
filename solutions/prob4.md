@@ -51,7 +51,9 @@ for x in range (9,0,-1):
 ```python3
 def num_factor(n):
     l = 1
-    for k in range(100,1000):  # Here we are finding largest below N, so in worst case scenario, range starts from 100 or 999 doesn't matter
+    # Here we are finding largest below N, so in worst case scenario, range starts from 100 or 999 doesn't matter.
+    # But in all cases range from 999 to 99 do better by ~900 steps in final tally which is ignorable. 
+    for k in range(100,1000):
         if n%k==0:
             l = n // k
         if l > 100 and l < 1000: 
