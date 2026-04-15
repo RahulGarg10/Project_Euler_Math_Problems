@@ -18,13 +18,25 @@ Problem Links:
 **Hackerrank:** https://www.hackerrank.com/contests/projecteuler/challenges/euler006/problem?isFullScreen=false
 
 ## Solution
+Using formulae,
 
-**Time Complexity:** $O()$
+$$1^2 + 2^2 + 3^2 + ... + n^2 =  \frac{n.(n + 1)(2n + 1)}{6}$$
+
+$$1 + 2 + ... + n = \frac{n.(n + 1)}{2}$$
+
+**Time Complexity:** $O(1)$
 
 **Space Complexity:** $O(1)$
 
 ```python3
+n = int(input())
+simp_sum = n * (n + 1) // 2
+sqr_sum = (n * (n + 1) * (2 * n + 1)) // 6
+l = simp_sum**2
+if l > sqr_sum:
+    print(l - sqr_sum)
+else: 
+    print(sqr_sum - l)
 
-    
-            
+        
 ```
