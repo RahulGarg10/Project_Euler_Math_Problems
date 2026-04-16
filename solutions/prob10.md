@@ -2,7 +2,7 @@
 
 ## Question
 <p>The sum of the primes below $10$ is $2 + 3 + 5 + 7 = 17$.</p>
-<p>Find the sum of all the primes below or equal to $N$.</p>. Problem Links:
+<p>Find the sum of all the primes below or equal to $N$. Problem Links:</p>
 
 **Project Euler:** https://projecteuler.net/problem=10
 
