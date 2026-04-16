@@ -11,3 +11,5 @@ These problems are generalised in Hackerrank's [ProjectEuler+ challenge](https:/
 | 4 | Largest Palindrome Product | [Python](./solutions/prob4.md) |
 | 5 | Smallest Multiple | [Python](./solutions/prob5.md) |
 | 6 | Sum Square Difference | [Python](./solutions/prob6.md) |
+| 10 | Summation of Primes | [Python](./solutions/prob10.md) |
+
