@@ -13,7 +13,24 @@ I am implementing a **sieve of Eratosthenes** algorithm to find **prime numbers*
 
 **Time Complexity:** $O(n.loglog \ n)$
 
-**Space Complexity:** $O(n)$
+**Space Complexity:** $O(\frac{1}{2}.n)$
+
+### Project Euler Solution
+```python3
+n=2000000
+number = [2] + [k for k in range(3,n+1,2)]
+length = len(number)
+num = 3
+while(num * num <=  n):
+    if number[num//2] != 0 :
+        i = (num*num)//2
+        while(i<length):        
+            number[i] = 0
+            i=i+num
+    num = num + 2
+            
+print(sum(number))
+```
 
 ### Hackerrank Solution
 
