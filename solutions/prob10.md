@@ -9,11 +9,47 @@
 **Hackerrank:** https://www.hackerrank.com/contests/projecteuler/challenges/euler010/problem?isFullScreen=false
 
 ## Solution
+I am implementing a **sieve of Eratosthenes** algorithm to find **prime numbers** upto $N$.
 
-**Time Complexity:** $O()$
+**Time Complexity:** $O(n.loglog \ n)$
 
-**Space Complexity:** $O()$
+**Space Complexity:** $O(n)$
+
+### Hackerrank Solution
 
 ```python3
+import sys
+def sieve():
+    m = 1000000
+    number = [2] + [k for k in range(3,m+1,2)]
+    length = len(number)
+    for num in number:
+        if num == 2 or num == 0: 
+            continue
+        if (num * num >  m):
+            break
+        if number[num//2] != 0 :
+            i = (num*num)//2
+            number[i:length:num] = [0]*len(number[i:length:num])
+    return number
+    
+def summation(n):
+    sums = 0
+    for p in number:
+        if p <=n:
+            sums = sums + p
+        else:
+            break  
+    return sums
+    
+number = sieve()
+results = []
+t = int(input().strip())
+for a0 in range(t):
+    n = int(input().strip())
+    sums = summation(n)
+    results.append(str(sums))   
+sys.stdout.write("\n".join(results) + "\n")
+
 
 ```
