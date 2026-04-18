@@ -70,10 +70,9 @@ sys.stdout.write("\n".join(results) + "\n")
 ```
 
 ```python3
-n=50
+n=1000000
 number = [2] + [k for k in range(3,n+1,2)]
 length = len(number)
-#print(number[25])
 num = 3
 while(num * num <=  n):
     if number[num//2] != 0 :
@@ -86,6 +85,5 @@ while(num * num <=  n):
     num = num + 2
             
 print(sum(number))
-print(number)
 
 ```
