@@ -78,8 +78,6 @@ while(num * num <=  n):
     if number[num//2] != 0 :
         i = (num*num)//2
         while(i<length):
-            
-            print(i, num)
             number[i] = 0
             i=i+num
     num = num + 2
