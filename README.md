@@ -12,5 +12,6 @@ These problems are generalised in Hackerrank's [ProjectEuler+ challenge](https:/
 | 5 | Smallest Multiple | [Python](./solutions/prob5.md) |
 | 6 | Sum Square Difference | [Python](./solutions/prob6.md) |
 | 7 | 10 001st Prime | [Python](./solutions/prob7.md) |
+| 8 | Largest Product in a Series | [Python](./solutions/prob8.md) |
 | 10 | Summation of Primes | [Python](./solutions/prob10.md) |
 
