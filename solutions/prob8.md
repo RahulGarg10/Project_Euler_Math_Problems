@@ -39,8 +39,48 @@ Problem Links:
 
 **Time Complexity:** $O(n)$
 
-**Space Complexity:** $O(n)$
+**Space Complexity:** $O(1)$
 
 ```python3
+  l=[]
+  num = int(num)
+  large = 0
 
+  while(num > 0):
+      z = num % 10
+      l.append(z)
+      num = num // 10
+
+  def k_digit_product(i):
+      start = i
+      end = i+k
+      product = 0
+      if end<=len(l):
+          product = 1
+          for index in range(start, end):
+              product = product * l[index]
+              end = index
+              if product == 0:
+                  return k_digit_product(index + 1)
+      return start, end, product
+
+  start = 0
+  start, end, product = k_digit_product(start)
+  large = product
+  while(end+1<len(l)):
+      if l[end+1] !=0:
+          end = end + 1
+          product = product * l[end] // l[start]
+          start = start + 1
+      
+      else:
+          start = end + 1 
+          start, end,  product = k_digit_product(start)
+      
+      if product > large:
+          large = product
+
+
+      
+  print (large)
 ```
