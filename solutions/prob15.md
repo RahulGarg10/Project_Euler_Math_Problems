@@ -13,9 +13,11 @@ If moving from top-left corner to bottom-right corner in a $N \times M$ grid, th
 
 $$\text{Total Ways} = \frac{(N+M)!}{(N)! . (M!)}$$
 
-**Time Complexity:** $O(\min(N, M))$
+**Time Complexity:** $O(N + M)$
 
 **Space Complexity:** $O(1)$
+
+Here, since N and M are not significantly large we calculate the (N+M)!, N! and M! by calling factorial function each time. But it can further be optimised so that time complexity is $O(\min(N, M))$ by simplyfying the formula, as both N and M can be cancelled out in expansion of numerator.
 
 ### Hackerrank Solution
 
