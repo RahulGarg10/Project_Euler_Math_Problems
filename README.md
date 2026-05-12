@@ -24,4 +24,5 @@ However, the rule about sharing solutions outside of Project Euler does not appl
 | 7 | 10 001st Prime | [Python](./solutions/prob7.md) |
 | 8 | Largest Product in a Series | [Python](./solutions/prob8.md) |
 | 10 | Summation of Primes | [Python](./solutions/prob10.md) |
+| 15 | Lattice paths | [Python](./solutions/prob15.md) |
 
