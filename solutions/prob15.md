@@ -9,7 +9,9 @@ Problem Links:
 **Hackerrank:** https://www.hackerrank.com/contests/projecteuler/challenges/euler015/problem?isFullScreen=false
 
 ## Solution
-Calculate the sum of multiples of 3 + sum of multiples of 5 - sum of multiples of 15. If we use loop to iterate then time complexity is $O(n)$ which increases with n. So we use sum of AP formula which is independents of size N.
+If moving from top-left corner to bottom-right corner in a $N \times M$ grid, then N and M can be assumed as the no. of steps taken to reach end in N right steps and M down steps. Total steps taken each time is $N+M$. So to arrange the N steps of one kind and M steps of one other kind, total ways is:
+
+$$\text{Total Ways} = \frac{(N+M)!}{(N)! . (M!)}$$
 
 **Time Complexity:** $O(1)$
 
