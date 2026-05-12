@@ -15,12 +15,43 @@ Calculate the sum of multiples of 3 + sum of multiples of 5 - sum of multiples o
 
 **Space Complexity:** $O(1)$
 
+### Hackerrank Solution
+
 ```python3
-n = int(input().strip())
-def sum_of_multiples(i):
-    multiples_no = (n-1) // i
-    return  multiples_no * (2 * i + (multiples_no - 1)*i) // 2
+def factorial(num):
+    product=1
+    for i in range(1,num+1):
+        product = product * i
+    return product
+
+MOD = 10**9 + 7
+
+t = int(input().strip())
+for a0 in range(t):
+    n,m = input().strip().split(' ')
+    n,m = [int(n),int(m)]
     
-sums = sum_of_multiples(3) + sum_of_multiples(5) - sum_of_multiples(15)
-print(sums)
+    ways = factorial(n+m)//(factorial(n) * factorial(m))
+    
+    print(ways % MOD)
 ```
+
+### Project Euler Solution
+
+```python3
+def factorial(num):
+    product=1
+    for i in range(1,num+1):
+        product = product * i
+    return product
+
+t = int(input().strip())
+for a0 in range(t):
+    n,m = input().strip().split(' ')
+    n,m = [int(n),int(m)]
+    
+    ways = factorial(n+m)//(factorial(n) * factorial(m))
+    
+    print(ways)
+```
+
