@@ -13,7 +13,7 @@ If moving from top-left corner to bottom-right corner in a $N \times M$ grid, th
 
 $$\text{Total Ways} = \frac{(N+M)!}{(N)! . (M!)}$$
 
-**Time Complexity:** $O(1)$
+**Time Complexity:** $O(\min(N, M))$
 
 **Space Complexity:** $O(1)$
 
