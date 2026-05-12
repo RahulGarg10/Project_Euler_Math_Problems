@@ -22,11 +22,19 @@ Problem Links:
 **Space Complexity:** $O(1)$
 
 ```python3
-n = int(input().strip())
-def sum_of_multiples(i):
-    multiples_no = (n-1) // i
-    return  multiples_no * (2 * i + (multiples_no - 1)*i) // 2
-    
-sums = sum_of_multiples(3) + sum_of_multiples(5) - sum_of_multiples(15)
-print(sums)
+t = int(input().strip())
+for a0 in range(t):
+    n = int(input().strip())
+    product = -1
+    large = -1
+    for a in range(1, n):
+        b = n*(n - 2 * a)/((n - a)*2)
+        if b<1:
+            continue
+        if b / int(b) == 1 and 0<b<n:
+            c = n-a-b
+            product = a*b*c
+        if product > large:
+            large = int(product)
+    print(large)
 ```
