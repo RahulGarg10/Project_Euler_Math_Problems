@@ -1,9 +1,9 @@
-# Project_Euler_Math_Problems
+# Project Euler Math Problems:
 Algorithms in Python to solve Project Euler problems at [projecteuler.net/archives](https://projecteuler.net/archives).
 
 These problems are generalised in Hackerrank's [ProjectEuler+ challenge](https://www.hackerrank.com/contests/projecteuler/challenges)
 
-## Terms:
+## Important!
 Below is the question, posted on **Project Euler's** About section. **Please read !!** it before accessing solutions below.
 
 **I learned so much solving problem XXX, so is it okay to publish my solution elsewhere?**
@@ -12,6 +12,7 @@ It appears that you have answered your own question. There is nothing quite like
 
 However, the rule about sharing solutions outside of Project Euler does not apply to the first one-hundred problems, as long as any discussion clearly aims to instruct methods, not just provide answers, and does not directly threaten to undermine the enjoyment of solving later problems. Problems 1 to 100 provide a wealth of helpful introductory teaching material and if you are able to respect our requirements, then we give permission for those problems and their solutions to be discussed elsewhere.
 
+## Problems:
 
 | # | Title | Python |
 |---| ----- | ------ |
